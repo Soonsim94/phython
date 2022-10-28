@@ -1,0 +1,52 @@
+221028 파이썬
+
+***숙제*****
+mdn 숫자맞추기 
+마지막 다시 사작하라는 조건 넣기. 
+어려우면 빼기 
+
+사이트 주말동안보기 
+
+- 데이터 입력방법 중요
+- nodejs.(자바스크립트실행)  알아보기 
+-w3schools.com
+
+- 확장프로그램 
+파이썬 Linting
+Python Extended
+
+-파이썬과 자바스크립트 비교
+
+ https:// cyannara.github.io
+             python->python
+
+박준코딩문제사이트
+
+- 타입검사 : typeof
+- 타입변환 
+
+문자를 숫자로
+ 
+    parseInt()      int() 
+    Number()
+    String()     str ()  숫자를 문자로 
+
+문자를 배열로  
+     ->
+     split (자르기)
+     <-
+     join
+
+
+
+
+arr = [1,2] "1,2"
+
+
+배열 :
+초기화 - a.length 배열전체삭제 , a = [ ]
+요소 - a [0]
+추가 - push () , unshift ()
+삭제 - pop() 끝에 , shift () 맨앞에  , splice (i,2) 중간에 
+delete a[1] 수는 똑같고 값만 빔. 
+변경 - a[0] = 10
