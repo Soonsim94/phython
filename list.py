@@ -1,16 +1,26 @@
 '''
-list == array 
-배열에 요소 추가, 삭제, 조회, 변경 
+dict 4명 
 '''
-arr = ['김','이','박','옹']
 
-arr.append('최') #마지막 최 
-arr.insert(0,'강') #맨처음 강
 
-del arr(0,'강') #김삭제 del
+list = []
 
-arr.remove('박')   #박삭제 remove
+for i in range(3):
+    info = { }
 
-print(arr) 
+    info["name"] = input("이름입력:")
 
- 
+    info["age"] = input("나이입력:")
+
+    info["add"] = input("주소입력:")
+    
+    #리스트에 추가
+    list.append(info)
+
+print(list)
+
+    #리스트출력
+for mem in list:  # for 변수 in 배열 : 
+        print(f'{mem["name"]} \t {mem["age"]}')  #print(변수["출력명"])
+
+    
